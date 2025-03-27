@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 import '../../../model/ride/ride_pref.dart';
-import '../../../providers/rides_preferences_provider.dart';
+import '../../../provider/rides_preferences_provider.dart';
 import '../../theme/theme.dart';
 import '../../../utils/animations_util.dart';
 import '../rides/rides_screen.dart';
@@ -90,6 +90,7 @@ class RidePrefScreen extends StatelessWidget {
     );
   }
 }
+
 
 class BlaBackground extends StatelessWidget {
   const BlaBackground({super.key});
